@@ -10,7 +10,7 @@ func main() {
 
 	fmt.Println(blog)
 
-	blog.SaveArticle(Article{"My first Blog post", "Today, we will be talking about blogging"})
+	blog.SaveArticle(Article{"My First Blog post", "Today, we will be talking about blogging"})
 
 	fmt.Println(blog)
 
